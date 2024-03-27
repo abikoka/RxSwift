@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxCocoa"
-  s.version          = "6.6.0.1"
+  s.version          = "6.6.0"
   s.summary          = "RxSwift Cocoa extensions"
   s.description      = <<-DESC
 * UI extensions
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files          = 'RxCocoa/**/*.{swift,h,m}', 'Platform/**/*.swift'
   s.exclude_files         = 'RxCocoa/Platform/**/*.swift', 'Platform/AtomicInt.swift'
 
-  s.dependency 'RxSwift', '6.6.0.1'
+  s.dependency 'RxSwift', '6.6.0'
   s.dependency 'RxRelay', '6.6.0'
 
   s.resource_bundles = {"RxCocoa" => ["RxCocoa/PrivacyInfo.xcprivacy"]}
