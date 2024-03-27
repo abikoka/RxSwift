@@ -25,7 +25,7 @@ Waiting for observable sequence to complete before exiting command line applicat
   s.source_files          = 'RxBlocking/**/*.swift', 'Platform/**/*.swift'
   s.exclude_files         = 'RxBlocking/Platform/**/*.swift'
 
-  s.dependency 'RxSwift', '6.6.0'
+  s.dependency 'RxSwift', '6.6.0.1'
   s.swift_version = '5.1'
 
   s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
